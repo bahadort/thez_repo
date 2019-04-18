@@ -1,0 +1,22 @@
+<main role="main">
+{% load staticfiles %}
+  <section class="jumbotron text-center">
+    <div class="container">
+<img src="{% static 'spider.jpg' %}" width="400" height="400" /> <img src="{% static 'horse-web.jpg' %}" width="400" height="400"/>
+      <br>
+
+
+      <form method="POST" action="question-2" >
+          {% csrf_token %}
+        <input type="radio" name="MyRadio" value="THE RIGHT ONE" >THE RIGHT ONE
+        <input type="radio" name="MyRadio" value="THE LEFT ONE">THE LEFT ONE
+        <input type="submit" value="Result" name="Result">
+      </form>
+
+
+    </div>
+  </section>
+
+
+
+</main>
