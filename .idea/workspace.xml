@@ -13,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/thez/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="121" column="32" selection-start-line="121" selection-start-column="32" selection-end-line="121" selection-end-column="32" />
+            <state relative-caret-position="293">
+              <caret line="78" column="8" selection-start-line="76" selection-end-line="81" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -141,7 +141,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="13" y="26" width="1346" height="712" extended-state="1" />
+    <frame x="13" y="26" width="1346" height="712" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -237,8 +238,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thez/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="121" column="32" selection-start-line="121" selection-start-column="32" selection-end-line="121" selection-end-column="32" />
+        <state relative-caret-position="293">
+          <caret line="78" column="8" selection-start-line="76" selection-end-line="81" selection-end-column="1" />
         </state>
       </provider>
     </entry>
