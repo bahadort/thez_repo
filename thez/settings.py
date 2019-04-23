@@ -25,7 +25,7 @@ SECRET_KEY = '^)y+7^vmtavhw+q5zl@f15j&t5jj4^tuj8rrb!)_^gs-1cg3v1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['104.248.253.111', 'bahadortaheri.com']
 
 
 # Application definition
@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'thez.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'bahdordeploy',
+        'USER': 'bahadordeploy',
+        'PASSWORD': 'ir0nm@iden',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
 
