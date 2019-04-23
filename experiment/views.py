@@ -8,8 +8,8 @@ from . import inserter
 def experiment(request):
     exp_answers= Experiment.objects
     answer = str(request.POST.get('MyRadio'))
-    #inserter('results', 'result_answerlr', answer)
-    return render(request, 'index.html', {'experimental':exp_answers})
+    inserter('results', 'result_answerlr', answer)
+    return render(request, 'experiment.html', {'experimental':exp_answers})
 def question_2(request):
     answer = str(request.POST.get('MyRadio'))
     inserter('results', 'result_answerlr', answer)
