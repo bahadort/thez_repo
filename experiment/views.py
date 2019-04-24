@@ -10,13 +10,13 @@ def experiment(request):
     answer = request.POST.get('MyRadio')
 
 
-    def insert(table, column, value):
-        connection = psycopg2.connect(dbnam='thezdb', user='postgres', password='123456')
-        mark = connection.cursor()
-        statement = 'INSERT INTO ' + table + ' (' + column + ') VALUES (' + value + ')'
-        mark.execute(statement)
-        connection.commit()
-        return
+
+    connection = psycopg2.connect(dbnam='thezdb', user='postgres', password='123456')
+    mark = connection.cursor()
+    statement = 'INSERT INTO ' + table + ' (' + column + ') VALUES (' + value + ')'
+    mark.execute(statement)
+    connection.commit()
+        
     inserted_data= insert('results', 'result_answerlr', answer)
     return render(request, 'experiment.html', {'experimental': exp_answers})
 
