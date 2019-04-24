@@ -17,7 +17,7 @@ def experiment(request):
         mark.execute(statement)
         connection.commit()
         return
-    inserted_data= insert('results', 'resultanswerlr', answer)
+    inserted_data= insert('results', 'result_answerlr', answer)
 
 
 def question_2(request):
