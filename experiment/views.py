@@ -2,7 +2,7 @@ from django.shortcuts import render
 from .models import Experiment
 import psycopg2
 import datetime
-from . import inserter
+
 
 
 def experiment(request):
