@@ -1,11 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title></title>
-</head>
-<body>
-<h1>it is working!</h1>
+<main role="main">
+{% load staticfiles %}
+  <section class="jumbotron text-center">
+    <div class="container">
+<img src="{% static 'horse-web.jpg' %}" width="400" height="400" /> <img src="{% static 'spider.jpg' %}" width="400" height="400"/>
+      <br>
 
-</body>
-</html>
+
+      <form method="POST" action="question-2" >
+          {% csrf_token %}
+        <input type="radio" name="MyRadio" value="1" >THE RIGHT ONE
+        <input type="radio" name="MyRadio" value="0">THE LEFT ONE
+        <input type="submit" value="Result" name="Result">
+      </form>
+
+
+    </div>
+  </section>
+
+
+
+</main>
+

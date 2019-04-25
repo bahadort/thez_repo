@@ -8,7 +8,11 @@ import datetime
 def experiment(request):
     exp_answers= Experiment.objects
     answer = request.POST.get('MyRadio')
-    connection= psycopg2.connect(dbnam='thezdb', user='postgres', password='123456')
+    connection= psycopg2.connect(database='thezdb',
+                                 user='postgres',
+                                 password='123456',
+                                 host = "104.248.253.111",
+                                 port = "5432")
     mark = connection.cursor()
     table = 'results'
     column = 'result_answerlr'
@@ -16,6 +20,9 @@ def experiment(request):
     statement = 'INSERT INTO ' + table + ' (' + column + ') VALUES (' + value + ')'
     mark.execute(statement)
     connection.commit()
+    mark.close()
+    connection.close()
+
 
     return render(request, 'experiment.html', {'experimental': exp_answers})
 
