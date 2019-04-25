@@ -8,8 +8,8 @@
 
       <form method="POST" action="question-2" >
           {% csrf_token %}
-        <input type="radio" name="MyRadio" value=0 >THE RIGHT ONE
-        <input type="radio" name="MyRadio" value=0>THE LEFT ONE
+        <input type="radio" name="MyRadio" value="1" >THE RIGHT ONE
+        <input type="radio" name="MyRadio" value="0">THE LEFT ONE
         <input type="submit" value="Result" name="Result">
       </form>
 
