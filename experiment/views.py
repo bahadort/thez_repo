@@ -16,7 +16,7 @@ def experiment(request):
     mark = connection.cursor()
     table = 'results'
     column = 'result_answerlr'
-    value = answer
+    value = str(answer)
     statement = 'INSERT INTO ' + table + ' (' + column + ') VALUES (' + value + ')'
     mark.execute(statement)
     connection.commit()
