@@ -25,7 +25,7 @@ SECRET_KEY = '^)y+7^vmtavhw+q5zl@f15j&t5jj4^tuj8rrb!)_^gs-1cg3v1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['bahadortaheri.com']
 
 
 # Application definition
