@@ -9,9 +9,6 @@ def experiment(request):
     exp_answers= Experiment.objects
     answer = request.POST.get('MyRadio')
     return render(request, 'experiment.html')
-    
-
-
 def question_2(request):
     answer = str(request.POST.get('MyRadio'))
 

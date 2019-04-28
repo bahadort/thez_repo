@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58f3a829-4769-4a7f-90af-b6e90492e712" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/experiment/templates/experiment.html" beforeDir="false" afterPath="$PROJECT_DIR$/experiment/templates/experiment.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/experiment/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiment/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/experiment/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="136">
+              <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -66,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/experiment/templates/experiment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="51" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="51" />
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -96,12 +97,12 @@
         <option value="$PROJECT_DIR$/experiment/models.py" />
         <option value="$PROJECT_DIR$/experiment/inserter.py" />
         <option value="$PROJECT_DIR$/experiment/templates/index.html" />
-        <option value="$PROJECT_DIR$/experiment/templates/experiment.html" />
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/thez/settings.py" />
         <option value="$PROJECT_DIR$/thez/urls.py" />
         <option value="$PROJECT_DIR$/thez/wsgi.py" />
         <option value="$PROJECT_DIR$/experiment/views.py" />
+        <option value="$PROJECT_DIR$/experiment/templates/experiment.html" />
       </list>
     </option>
   </component>
@@ -262,13 +263,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiment/templates/experiment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thez_repo/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -286,10 +280,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/experiment/templates/experiment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/experiment/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="136">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
